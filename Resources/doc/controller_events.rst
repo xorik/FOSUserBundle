@@ -95,7 +95,7 @@ before ``FOS\UserBundle\EventListener\EmailConfirmationListener::onRegistrationS
     {
         return [
             FOSUserEvents::REGISTRATION_SUCCESS => [
-                ['onRegistrationSuccess', -10],
+                ['onRegistrationSuccess', 10],
             ],
         ];
     }
